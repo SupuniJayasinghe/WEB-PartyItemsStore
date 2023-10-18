@@ -1,0 +1,71 @@
+.create-account-img {
+    height: 750px;
+    width: 550px;
+    float: right;
+}
+
+.logo {
+    height: 150px;
+    width: 250px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+
+}
+
+.createaccount{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253, 253, 248);
+
+}
+
+.createTitle{
+    background-color: rgba(248, 171, 70, 0.779);
+    height: 60px;
+    width: 240px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 230px; 
+    border-width: 3px; 
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+.felements {
+    height: 500px;
+    width: 780px;
+    background-color: rgb(197, 190, 190);
+    align-content: center;
+    margin-left: 80px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.input {
+    background-color: antiquewhite;
+    height: 45px;
+    width: 490px;
+    border-radius: 10px;
+    margin-left: 120px;
+    font-size: large;
+    padding: 10px;
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.signup {
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 300px;
+    font-size: x-large;
+    background-color: brown;
+    color: aliceblue;
+    border-width: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}

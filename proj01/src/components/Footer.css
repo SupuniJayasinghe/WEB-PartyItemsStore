@@ -1,0 +1,23 @@
+.footer-nav {
+    display: flex;
+    background-color: #dda1b2;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+
+}
+
+.footer-nav p {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.footer-nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin-right: 5px;
+}

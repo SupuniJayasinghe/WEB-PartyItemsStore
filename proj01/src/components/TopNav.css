@@ -1,0 +1,68 @@
+.topnav {
+    overflow: hidden;
+    background-color: #2f241d;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: space-around;
+    height: 50px;
+}
+  
+.topnav a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 50px;
+}
+  
+.Products, .Themes {
+    float: left;
+    overflow: hidden;
+    
+}
+  
+.products, .themes {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+    border-radius: 0;
+    height: 50px;
+}
+  
+.topnav a:hover, .Products:hover .products, .Themes:hover .themes{
+    background-color: rgb(218, 123, 123);
+}
+  
+.products-content, .themes-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.products-content a, .themes-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+  
+  
+.products-content a:hover, .themes-content a:hover{
+    background-color: #ddd;
+}
+  
+.Products:hover .products-content, .Themes:hover .themes-content {
+    display: block;
+}

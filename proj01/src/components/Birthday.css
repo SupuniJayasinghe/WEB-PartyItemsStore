@@ -1,0 +1,87 @@
+.title {
+    background-color:aliceblue;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 350px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.content{
+    display: block;
+    margin: 0 60px;
+    
+}
+
+img {
+    width: 200px;
+    height: 180px;
+    margin-bottom: 0;
+    
+}
+
+.details{
+    height: 80px;
+    background-color: rgb(220, 169, 177);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h3{
+    font-size: large;
+    margin: 0;
+    margin-left: 10px;
+    width: 200px;
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+p{
+    margin:0;
+    font-size: small;
+    margin-left: 10px;
+    
+}
+
+button {
+    height: 35px;
+    width: 200px;
+    margin-left: 0;
+    border-radius: 0;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(126, 47, 47);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+
+}
+
+a {
+    font-size: smaller;
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.content{
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5) inset;
+}
