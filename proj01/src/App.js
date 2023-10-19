@@ -7,6 +7,8 @@ import Login from './pages/Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Birthday from './components/Birthday';
 import Birthdays from './pages/Birthdays';
+import BirthdayItems from './pages/BirthdayItems';
+import ShoppingCart from './pages/ShoppingCart';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Route path="/create-account" element={<CreateAcc />} />
           <Route path="/login" element={<Login />} />
 
-          <Route path="/bday" element={<Birthdays />} />
+          <Route path="/bday" element={<BirthdayItems />} />
+          <Route path="items" element={<BirthdayItems />}/>
+          <Route path="cart" element={<ShoppingCart/>}/>
           {/* Add other routes here */}
         </Routes>
       </Router>
